@@ -1,0 +1,76 @@
+*{
+    
+    /* box-sizing: border-box;   */
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+background: black;
+}
+.menu-bar{
+    background-color: #000035;
+}
+.menu-bar .nav-logo{
+    text-align: center;
+}
+.menu-bar .nav-logo img{
+    width: 120px;
+    height: 120px;
+}
+header .back-img{
+    background-image: url('Bakground_Img.jpg');
+    background-position: 10px -212px;
+    background-size: cover;
+    filter: blur(8px);
+    height: 720px;
+    background-repeat: no-repeat;
+}
+header .info{
+    z-index: 2;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    
+}
+header .info h1{
+    padding: 40px;
+}
+header .info h1 span{
+    display: block;
+    font-size: 9.4rem;
+    line-height: 130px;
+}
+/* Contact Us */
+.contact{
+    margin-bottom: 20px;
+}
+.detail-con{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.con-title h3{
+    margin-left: 60px;
+}
+.con-title h3 span{
+    background-color: rgb(10, 97, 173);
+    padding: 3px;
+    border-radius: 4px;
+}
+.detail1{
+    background-color: rgb(10, 97, 173);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.contact p:nth-child(2),.contact p:nth-child(4){
+    background-color: #000035;
+    padding: 2px;
+    border-radius: 5px;
+}
+/* footer */
+footer{
+    text-align: center;
+    background-color: #000035;
+    padding: 10px;
+}
